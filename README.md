@@ -10,3 +10,8 @@ Gender mapping (FLEURS): 0 = male, 1 = female.
 - `sample-*.mp3`: Cantonese test sentence synthesized by CosyVoice2 zero-shot voice cloning using the corresponding reference.
 
 Test sentence: 你好，我係安仔，有咩可以幫到你？
+
+## Verified distinct male speakers (male2-*)
+
+Selected via CAM++ speaker-embedding verification (pairwise cosine < 0.32):
+- male2-1091, male2-137, male2-783 — three clearly different male speakers.
